@@ -24,8 +24,7 @@ title: Sonny's Tech Blog
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  민혁이의 테크 블로그입니다.
 
 # A shorter description for the sidebar.
 tagline: Welcome to Sonny's Tech Blog :)
@@ -37,6 +36,9 @@ keywords: []
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo: /assets/img/me.jpg
+
+favicon:
+apple_touch_icon:
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -81,7 +83,7 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
