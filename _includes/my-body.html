@@ -77,9 +77,19 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
 </script>
 
 {% comment %}
+<!-- Utterance Comment -->
+<script
+  src="https://utteranc.es/client.js"
+  repo="sonmh79/sonmh79.github.io"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+  async
+></script>
 <!--
 Example code for using Matamo as alternative analytics solution.
 -->
+
 {% if site.matomo_analytics %}
 <script>
   var _paq = _paq || [];
@@ -116,13 +126,5 @@ Example code for using Matamo as alternative analytics solution.
 
   window.loadJSDeferred("{{site.matomo_analytics.root}}piwik.js");
 </script>
-{% endif %} {% endcomment %} {% if page.layout == 'post'%}
-<script
-  src="https://utteranc.es/client.js"
-  repo="sonmh79/sonmh79.github.io"
-  issue-term="title"
-  theme="github-light"
-  crossorigin="anonymous"
-  async
-></script>
-{% endif %}
+
+{% endif %} {% endcomment %}

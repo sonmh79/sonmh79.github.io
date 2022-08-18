@@ -57,8 +57,8 @@ menu:
     url: /feedback/
   - title: Study
     url: /study/
-  - title: Life
-    url: /life/
+  # - title: Life
+  #   url: /life/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -149,6 +149,7 @@ defaults:
 
   # # You can use the following to enable comments on all posts.
   # - scope:
+  #     path: ""
   #     type: posts
   #   values:
   #     comments: true
