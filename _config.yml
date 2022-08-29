@@ -147,12 +147,12 @@ defaults:
       published: true
       hide_last_modified: false
 
-  # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     path: ""
-  #     type: posts
-  #   values:
-  #     comments: true
+  # You can use the following to enable comments on all posts.
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -179,6 +179,16 @@ kramdown:
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
+
+# comments:
+#   # 'disqus' or 'utterances' are available
+#   provider: utterances
+
+utterances:
+  repo: "sonmh79/sonmh79.github.io"
+  issue-term: "title"
+  label: "Comments"
+  theme: "github-light"
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
