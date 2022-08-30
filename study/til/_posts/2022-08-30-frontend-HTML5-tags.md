@@ -4,7 +4,7 @@ tags: [til, frontend, html5, css]
 
 # 220830_frontend_HTML5_tags
 
-### <form>
+### {{ "<form>" | escape }}
 
 `<form>` 의 속성값 `GET`, `POST` 방식이 있다.
 
@@ -12,7 +12,7 @@ tags: [til, frontend, html5, css]
 
 `POST`는 http메시지의 body에 담아서 전송하기 때문에 내용 길이에 제한이 없다.
 
-### <input/>
+### {{ "<input/>" | escape }}
 
 `<label>`로 `<input>`태그를 감싸면 라벨만 눌러도 입력을 할 수 있다. 특히, `checkbox`같은 `<input>`에 좋다.
 
@@ -22,15 +22,15 @@ tags: [til, frontend, html5, css]
 
 이중 `submit` 방지 - `form` 태그 속성을 `onclick = false` 를 입력해 한 번의 `submit`은 차단하고 자바스크립트와 연결된 메서드를 실행시킨다.
 
-### <select>
+### {{ "<select>"  | escape }}
 
 `<select>` 태그에서 `multiple = “multiple”` 속성을 통해 다중 선택이 가능하다.
 
-### <textarea>
+### {{ "<textarea>" | escape }}
 
 `<textarea>` 내부에서 tab을 누르면 그대로 페이지에 적용되니 주의해야 한다.
 
-### <span>
+### {{ "<span>" | escape }}
 
 `<span>`은 `inline`태그이기 때문에 스페이스바나 엔터가 있으면 공백이 생길 수 있으니 주의해야 한다.
 
